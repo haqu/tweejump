@@ -2,7 +2,7 @@
 
 inspired by [Icy Tower](http://www.freelunchdesign.com/games.php?id=6), [PapiJump](http://linktoapp.com/PapiJump), [Doodle Jump](http://linktoapp.com/Doodle+Jump) and... [Twitter](http://twitter.com)!
 
-![TweeJump](http://web1.twitpic.com/img/7312982-a7eb776861b428a17405596900ba4605.49fb5339-full.png)
+![TweeJump](http://web1.twitpic.com/img/7312982-b895df3276cb5200053b9e056383cfd8.49fb5598-full.png)
 
 ## Notes
 
