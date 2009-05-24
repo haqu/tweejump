@@ -1,5 +1,6 @@
-#import <UIKit/UIKit.h>
+#import "cocos2d.h"
 
-@interface AppDelegate : NSObject <UIApplicationDelegate,UINavigationControllerDelegate>
+@interface AppDelegate : NSObject <UIApplicationDelegate, UIAccelerometerDelegate> {
+	UIWindow *window;
+}
 @end
-
