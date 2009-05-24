@@ -15,7 +15,7 @@ inspired by [Icy Tower](http://www.freelunchdesign.com/games.php?id=6), [PapiJum
   - replies -- '@' symbols
   - hashtags -- '#' symbols
 
-# References
+## References
 
 - [cocos2d-iphone](http://code.google.com/p/cocos2d-iphone/)
 - [cocos2d-iphone API](http://www.sapusmedia.com/cocos2d-iphone-api-doc/)
