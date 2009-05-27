@@ -9,7 +9,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 4D0631CC0FC30058008ECEEE /* tweejump */;
-		activeSDKPreference = iphonesimulator2.2.1;
+		activeSDKPreference = iphoneos2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* tweejump */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* tweejump */,
@@ -21,8 +21,8 @@
 			4D0631CC0FC30058008ECEEE /* tweejump */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 264873227;
-			PBXWorkspaceStateSaveDate = 264873227;
+			PBXPerProjectTemplateStateSaveDate = 265132535;
+			PBXWorkspaceStateSaveDate = 265132535;
 		};
 		sourceControlManager = 4D0631D30FC30076008ECEEE /* Source Control */;
 		userBuildSettings = {
@@ -84,8 +84,8 @@
 	4D0631E90FC30572008ECEEE /* AppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
-			sepNavSelRange = "{511, 0}";
-			sepNavVisRange = "{0, 853}";
+			sepNavSelRange = "{725, 0}";
+			sepNavVisRange = "{0, 855}";
 			sepNavWindowFrame = "{{734, 137}, {869, 792}}";
 		};
 	};
@@ -97,10 +97,63 @@
 			sepNavWindowFrame = "{{314, 108}, {869, 792}}";
 		};
 	};
+	4D2C55D50FCD3AF500331A7C /* Cloud.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
+			sepNavSelRange = "{210, 0}";
+			sepNavVisRange = "{0, 263}";
+			sepNavWindowFrame = "{{38, 360}, {869, 792}}";
+		};
+	};
+	4D2C55D60FCD3AF500331A7C /* Cloud.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 944}}";
+			sepNavSelRange = "{1226, 0}";
+			sepNavVisRange = "{299, 980}";
+			sepNavWindowFrame = "{{8, 301}, {869, 792}}";
+		};
+	};
+	4D66D3390FCDB787006416F9 /* Platform.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 1456}}";
+			sepNavSelRange = "{1312, 0}";
+			sepNavVisRange = "{810, 297}";
+			sepNavWindowFrame = "{{6, 275}, {869, 792}}";
+		};
+	};
+	4D66D33A0FCDB787006416F9 /* Platform.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
+			sepNavSelRange = "{234, 0}";
+			sepNavVisRange = "{0, 353}";
+			sepNavWindowFrame = "{{38, 360}, {869, 792}}";
+		};
+	};
+	4D66D3C60FCDCBFB006416F9 /* charmap.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{84, 318}, {869, 792}}";
+		};
+	};
+	4DD043610FC9081800897B73 /* AtlasSpriteManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 5216}}";
+			sepNavSelRange = "{1380, 0}";
+			sepNavVisRange = "{835, 1120}";
+			sepNavWindowFrame = "{{15, 381}, {869, 792}}";
+		};
+	};
+	4DD043690FC9081800897B73 /* ccMacros.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 896}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1084}";
+			sepNavWindowFrame = "{{84, 318}, {869, 792}}";
+		};
+	};
 	4DD044A60FC9125E00897B73 /* GameScene.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
-			sepNavSelRange = "{50, 0}";
+			sepNavSelRange = "{0, 20}";
 			sepNavVisRange = "{0, 55}";
 			sepNavWindowFrame = "{{153, 255}, {869, 792}}";
 		};
@@ -116,25 +169,25 @@
 	4DD044C80FC918D300897B73 /* GameLayer.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
-			sepNavSelRange = "{220, 0}";
-			sepNavVisRange = "{0, 252}";
+			sepNavSelRange = "{182, 0}";
+			sepNavVisRange = "{0, 533}";
 			sepNavWindowFrame = "{{620, 252}, {869, 792}}";
 		};
 	};
 	4DD044C90FC918D300897B73 /* GameLayer.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 2496}}";
-			sepNavSelRange = "{3204, 0}";
-			sepNavVisRange = "{2485, 1081}";
-			sepNavWindowFrame = "{{862, 79}, {869, 792}}";
+			sepNavIntBoundsRect = "{{0, 0}, {723, 4416}}";
+			sepNavSelRange = "{2937, 0}";
+			sepNavVisRange = "{3023, 125}";
+			sepNavWindowFrame = "{{670, 300}, {869, 792}}";
 		};
 	};
 	4DD045510FC933F400897B73 /* Constants.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
-			sepNavSelRange = "{15, 0}";
-			sepNavVisRange = "{0, 15}";
-			sepNavWindowFrame = "{{268, 150}, {869, 792}}";
+			sepNavSelRange = "{43, 0}";
+			sepNavVisRange = "{0, 91}";
+			sepNavWindowFrame = "{{76, 95}, {869, 792}}";
 		};
 	};
 	8D1107310486CEB800E47090 /* Info.plist */ = {

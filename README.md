@@ -2,7 +2,7 @@
 
 inspired by [Icy Tower](http://www.freelunchdesign.com/games.php?id=6), [PapiJump](http://linktoapp.com/PapiJump), [Doodle Jump](http://linktoapp.com/Doodle+Jump) and... [Twitter](http://twitter.com)!
 
-![Tweejump](http://fc05.deviantart.com/fs45/f/2009/144/f/5/Tweejump_WIP_1_by_sthaqu.jpg)
+![Tweejump](http://fc08.deviantart.com/fs43/f/2009/145/8/d/Tweejump_WIP_2_by_sthaqu.png)
 
 ## Notes
 
@@ -15,7 +15,7 @@ inspired by [Icy Tower](http://www.freelunchdesign.com/games.php?id=6), [PapiJum
   - replies -- '@' symbols
   - hashtags -- '#' symbols
 
-## References
+# References
 
 - [cocos2d-iphone](http://code.google.com/p/cocos2d-iphone/)
 - [cocos2d-iphone API](http://www.sapusmedia.com/cocos2d-iphone-api-doc/)

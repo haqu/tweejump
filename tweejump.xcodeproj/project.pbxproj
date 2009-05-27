@@ -14,6 +14,10 @@
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
 		4D0631D60FC3007F008ECEEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0631D50FC3007F008ECEEE /* CoreGraphics.framework */; };
 		4D0631EB0FC30572008ECEEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0631E90FC30572008ECEEE /* AppDelegate.m */; };
+		4D2C55D70FCD3AF500331A7C /* Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C55D60FCD3AF500331A7C /* Cloud.m */; };
+		4D2C560C0FCD447F00331A7C /* sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2C560B0FCD447F00331A7C /* sprites.png */; };
+		4D66D33B0FCDB787006416F9 /* Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D66D3390FCDB787006416F9 /* Platform.m */; };
+		4D66D3C70FCDCBFB006416F9 /* charmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D66D3C60FCDCBFB006416F9 /* charmap.png */; };
 		4DD043C10FC9081800897B73 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0435B0FC9081800897B73 /* Action.m */; };
 		4DD043C20FC9081800897B73 /* AtlasNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0435D0FC9081800897B73 /* AtlasNode.m */; };
 		4DD043C30FC9081800897B73 /* AtlasSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0435F0FC9081800897B73 /* AtlasSprite.m */; };
@@ -65,7 +69,6 @@
 		4DD0445B0FC90B1D00897B73 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD0445A0FC90B1D00897B73 /* fps_images.png */; };
 		4DD044A80FC9125E00897B73 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD044A70FC9125E00897B73 /* GameScene.m */; };
 		4DD044CA0FC918D300897B73 /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD044C90FC918D300897B73 /* GameLayer.m */; };
-		4DD0458F0FC93C1800897B73 /* sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD0458E0FC93C1800897B73 /* sprites.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +82,12 @@
 		4D0631D50FC3007F008ECEEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4D0631E90FC30572008ECEEE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4D0631EA0FC30572008ECEEE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D2C55D50FCD3AF500331A7C /* Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloud.h; sourceTree = "<group>"; };
+		4D2C55D60FCD3AF500331A7C /* Cloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloud.m; sourceTree = "<group>"; };
+		4D2C560B0FCD447F00331A7C /* sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sprites.png; path = Images/sprites.png; sourceTree = "<group>"; };
+		4D66D3390FCDB787006416F9 /* Platform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Platform.m; sourceTree = "<group>"; };
+		4D66D33A0FCDB787006416F9 /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
+		4D66D3C60FCDCBFB006416F9 /* charmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charmap.png; path = Images/charmap.png; sourceTree = "<group>"; };
 		4DD0435A0FC9081800897B73 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
 		4DD0435B0FC9081800897B73 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
 		4DD0435C0FC9081800897B73 /* AtlasNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlasNode.h; sourceTree = "<group>"; };
@@ -187,7 +196,6 @@
 		4DD044C80FC918D300897B73 /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
 		4DD044C90FC918D300897B73 /* GameLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLayer.m; sourceTree = "<group>"; };
 		4DD045510FC933F400897B73 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		4DD0458E0FC93C1800897B73 /* sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sprites.png; path = Images/sprites.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -213,10 +221,14 @@
 				4D0631EA0FC30572008ECEEE /* AppDelegate.h */,
 				4D0631E90FC30572008ECEEE /* AppDelegate.m */,
 				4DD045510FC933F400897B73 /* Constants.h */,
-				4DD044C80FC918D300897B73 /* GameLayer.h */,
-				4DD044C90FC918D300897B73 /* GameLayer.m */,
 				4DD044A60FC9125E00897B73 /* GameScene.h */,
 				4DD044A70FC9125E00897B73 /* GameScene.m */,
+				4DD044C80FC918D300897B73 /* GameLayer.h */,
+				4DD044C90FC918D300897B73 /* GameLayer.m */,
+				4D2C55D50FCD3AF500331A7C /* Cloud.h */,
+				4D2C55D60FCD3AF500331A7C /* Cloud.m */,
+				4D66D33A0FCDB787006416F9 /* Platform.h */,
+				4D66D3390FCDB787006416F9 /* Platform.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -275,7 +287,8 @@
 		4D0631D70FC30087008ECEEE /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				4DD0458E0FC93C1800897B73 /* sprites.png */,
+				4D66D3C60FCDCBFB006416F9 /* charmap.png */,
+				4D2C560B0FCD447F00331A7C /* sprites.png */,
 				4DD0445A0FC90B1D00897B73 /* fps_images.png */,
 			);
 			name = Images;
@@ -450,7 +463,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD0445B0FC90B1D00897B73 /* fps_images.png in Resources */,
-				4DD0458F0FC93C1800897B73 /* sprites.png in Resources */,
+				4D2C560C0FCD447F00331A7C /* sprites.png in Resources */,
+				4D66D3C70FCDCBFB006416F9 /* charmap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +527,8 @@
 				4DD043F00FC9081800897B73 /* Transition.m in Sources */,
 				4DD044A80FC9125E00897B73 /* GameScene.m in Sources */,
 				4DD044CA0FC918D300897B73 /* GameLayer.m in Sources */,
+				4D2C55D70FCD3AF500331A7C /* Cloud.m in Sources */,
+				4D66D33B0FCDB787006416F9 /* Platform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +567,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Sergey Tikhonov";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sergey Tikhonov";
+				COMPRESS_PNG_FILES = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -568,6 +585,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Sergey Tikhonov";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sergey Tikhonov";
+				COMPRESS_PNG_FILES = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
