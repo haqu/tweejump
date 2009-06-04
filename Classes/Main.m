@@ -68,18 +68,22 @@
 - (void)resetClouds {
 //	NSLog(@"resetClouds");
 	
-	currentCloudY = -1;
 	currentCloudTag = kCloudsStartTag;
 	
 	while(currentCloudTag < kCloudsStartTag + kNumClouds) {
 		[self resetCloud];
+
+		AtlasSpriteManager *spriteManager = (AtlasSpriteManager*)[self getChildByTag:kSpriteManager];
+		AtlasSprite *cloud = (AtlasSprite*)[spriteManager getChildByTag:currentCloudTag];
+		ccVertex2F pos = cloud.position;
+		pos.y -= 480.0f;
+		cloud.position = pos;
+		
 		currentCloudTag++;
 	}
 }
 
 - (void)resetCloud {
-	
-	currentCloudY += random() % (kMaxCloudStep - kMinCloudStep) + kMinCloudStep;
 	
 	AtlasSpriteManager *spriteManager = (AtlasSpriteManager*)[self getChildByTag:kSpriteManager];
 	AtlasSprite *cloud = (AtlasSprite*)[spriteManager getChildByTag:currentCloudTag];
@@ -94,8 +98,9 @@
 	CGSize size = cloud.contentSize;
 	float scaled_width = size.width * scale;
 	float x = random()%(320+(int)scaled_width) - scaled_width/2;
+	float y = random()%(480-(int)scaled_width) + scaled_width/2 + 480;
 	
-	cloud.position = ccp(x,currentCloudY);
+	cloud.position = ccp(x,y);
 }
 
 - (void)step:(ccTime)dt {
@@ -110,7 +115,7 @@
 		CGSize size = cloud.contentSize;
 		pos.x += 0.1f * cloud.scaleY;
 		if(pos.x > 320 + size.width/2) {
-			pos.x = random() % (int)(320.0f - size.width) + size.width/2 - 320.0f;
+			pos.x = -size.width/2;
 		}
 		cloud.position = pos;
 	}

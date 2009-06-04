@@ -99,6 +99,7 @@
 	[self resetBird];
 	[self resetBonus];
 	
+	[[UIApplication sharedApplication] setIdleTimerDisabled:YES];
 	gameSuspended = NO;
 }
 
@@ -334,6 +335,7 @@
 - (void)showHighscores {
 //	NSLog(@"showHighscores");
 	gameSuspended = YES;
+	[[UIApplication sharedApplication] setIdleTimerDisabled:NO];
 	
 //	NSLog(@"score = %d",score);
 	Highscores *highscores = [[Highscores alloc] initWithScore:score];

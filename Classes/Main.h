@@ -4,9 +4,7 @@
 
 #define kFPS 60
 
-#define kMinCloudStep		20
-#define kMaxCloudStep		80
-#define kNumClouds			24
+#define kNumClouds			12
 
 #define kMinPlatformStep	50
 #define kMaxPlatformStep	300
@@ -35,7 +33,6 @@ enum {
 
 @interface Main : Layer
 {
-	float currentCloudY;
 	int currentCloudTag;
 }
 - (void)resetClouds;
