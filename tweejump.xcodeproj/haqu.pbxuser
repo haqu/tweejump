@@ -7,7 +7,7 @@
 		);
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = 4D0631CC0FC30058008ECEEE /* tweejump */;
 		activeSDKPreference = iphoneos2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* tweejump */;
@@ -21,8 +21,8 @@
 			4D0631CC0FC30058008ECEEE /* tweejump */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 265132535;
-			PBXWorkspaceStateSaveDate = 265132535;
+			PBXPerProjectTemplateStateSaveDate = 265781017;
+			PBXWorkspaceStateSaveDate = 265781017;
 		};
 		sourceControlManager = 4D0631D30FC30076008ECEEE /* Source Control */;
 		userBuildSettings = {
@@ -83,55 +83,50 @@
 	};
 	4D0631E90FC30572008ECEEE /* AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
-			sepNavSelRange = "{725, 0}";
-			sepNavVisRange = "{0, 855}";
+			sepNavIntBoundsRect = "{{0, 0}, {810, 800}}";
+			sepNavSelRange = "{689, 0}";
+			sepNavVisRange = "{0, 1352}";
 			sepNavWindowFrame = "{{734, 137}, {869, 792}}";
 		};
 	};
 	4D0631EA0FC30572008ECEEE /* AppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
-			sepNavSelRange = "{20, 0}";
+			sepNavSelRange = "{106, 0}";
 			sepNavVisRange = "{0, 132}";
 			sepNavWindowFrame = "{{314, 108}, {869, 792}}";
 		};
 	};
-	4D2C55D50FCD3AF500331A7C /* Cloud.h */ = {
+	4D5448260FD48DF30010F348 /* Main.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
-			sepNavSelRange = "{210, 0}";
-			sepNavVisRange = "{0, 263}";
-			sepNavWindowFrame = "{{38, 360}, {869, 792}}";
+			sepNavSelRange = "{21, 2}";
+			sepNavVisRange = "{0, 651}";
+			sepNavWindowFrame = "{{68, 319}, {869, 792}}";
 		};
 	};
-	4D2C55D60FCD3AF500331A7C /* Cloud.m */ = {
+	4D5448270FD48DF30010F348 /* Main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 944}}";
-			sepNavSelRange = "{1226, 0}";
-			sepNavVisRange = "{299, 980}";
-			sepNavWindowFrame = "{{8, 301}, {869, 792}}";
+			sepNavIntBoundsRect = "{{0, 0}, {863, 1936}}";
+			sepNavSelRange = "{760, 5}";
+			sepNavVisRange = "{0, 988}";
+			sepNavWindowFrame = "{{84, 321}, {922, 789}}";
 		};
 	};
-	4D66D3390FCDB787006416F9 /* Platform.m */ = {
+	4D5449CF0FD4D67A0010F348 /* Highscores.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {439, 1456}}";
-			sepNavSelRange = "{1312, 0}";
-			sepNavVisRange = "{810, 297}";
-			sepNavWindowFrame = "{{6, 275}, {869, 792}}";
+			sepNavIntBoundsRect = "{{0, 0}, {723, 4432}}";
+			sepNavSelRange = "{365, 5}";
+			sepNavVisRange = "{254, 141}";
+			sepNavWindowFrame = "{{589, 105}, {922, 789}}";
 		};
 	};
-	4D66D33A0FCDB787006416F9 /* Platform.h */ = {
+	4D5449D00FD4D67A0010F348 /* Highscores.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
-			sepNavSelRange = "{234, 0}";
-			sepNavVisRange = "{0, 353}";
-			sepNavWindowFrame = "{{38, 360}, {869, 792}}";
-		};
-	};
-	4D66D3C60FCDCBFB006416F9 /* charmap.png */ = {
-		uiCtxt = {
-			sepNavWindowFrame = "{{84, 318}, {869, 792}}";
+			sepNavIntBoundsRect = "{{0, 0}, {863, 732}}";
+			sepNavSelRange = "{225, 0}";
+			sepNavVisRange = "{0, 305}";
+			sepNavWindowFrame = "{{153, 258}, {922, 789}}";
 		};
 	};
 	4DD043610FC9081800897B73 /* AtlasSpriteManager.m */ = {
@@ -150,44 +145,49 @@
 			sepNavWindowFrame = "{{84, 318}, {869, 792}}";
 		};
 	};
-	4DD044A60FC9125E00897B73 /* GameScene.h */ = {
+	4DD0436F0FC9081800897B73 /* Director.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
-			sepNavSelRange = "{0, 20}";
-			sepNavVisRange = "{0, 55}";
-			sepNavWindowFrame = "{{153, 255}, {869, 792}}";
+			sepNavIntBoundsRect = "{{0, 0}, {723, 4720}}";
+			sepNavSelRange = "{676, 2}";
+			sepNavVisRange = "{531, 237}";
 		};
 	};
-	4DD044A70FC9125E00897B73 /* GameScene.m */ = {
+	4DD043700FC9081800897B73 /* Director.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
-			sepNavSelRange = "{206, 0}";
-			sepNavVisRange = "{0, 212}";
-			sepNavWindowFrame = "{{724, 238}, {869, 792}}";
+			sepNavIntBoundsRect = "{{0, 0}, {723, 15840}}";
+			sepNavSelRange = "{3735, 10}";
+			sepNavVisRange = "{3564, 249}";
 		};
 	};
-	4DD044C80FC918D300897B73 /* GameLayer.h */ = {
+	4DD043910FC9081800897B73 /* Primitives.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
-			sepNavSelRange = "{182, 0}";
-			sepNavVisRange = "{0, 533}";
-			sepNavWindowFrame = "{{620, 252}, {869, 792}}";
+			sepNavIntBoundsRect = "{{0, 0}, {723, 768}}";
+			sepNavSelRange = "{1304, 8}";
+			sepNavVisRange = "{1174, 369}";
+			sepNavWindowFrame = "{{222, 195}, {922, 789}}";
 		};
 	};
-	4DD044C90FC918D300897B73 /* GameLayer.m */ = {
+	4DD043B20FC9081800897B73 /* TextureAtlas.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {723, 4416}}";
-			sepNavSelRange = "{2937, 0}";
-			sepNavVisRange = "{3023, 125}";
-			sepNavWindowFrame = "{{670, 300}, {869, 792}}";
+			sepNavIntBoundsRect = "{{0, 0}, {723, 4368}}";
+			sepNavSelRange = "{1658, 0}";
+			sepNavVisRange = "{1562, 222}";
 		};
 	};
-	4DD045510FC933F400897B73 /* Constants.h */ = {
+	4DD044C80FC918D300897B73 /* Game.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {810, 735}}";
-			sepNavSelRange = "{43, 0}";
-			sepNavVisRange = "{0, 91}";
-			sepNavWindowFrame = "{{76, 95}, {869, 792}}";
+			sepNavSelRange = "{244, 0}";
+			sepNavVisRange = "{0, 355}";
+			sepNavWindowFrame = "{{579, 230}, {869, 792}}";
+		};
+	};
+	4DD044C90FC918D300897B73 /* Game.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 6272}}";
+			sepNavSelRange = "{10222, 0}";
+			sepNavVisRange = "{9578, 366}";
+			sepNavWindowFrame = "{{678, 283}, {869, 792}}";
 		};
 	};
 	8D1107310486CEB800E47090 /* Info.plist */ = {

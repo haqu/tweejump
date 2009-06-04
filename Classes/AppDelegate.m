@@ -1,6 +1,6 @@
 #import "AppDelegate.h"
-#import "GameScene.h"
-#import "Constants.h"
+#import "Game.h"
+#import "Main.h"
 
 @implementation AppDelegate
 
@@ -9,9 +9,8 @@
 	[application setStatusBarStyle:UIStatusBarStyleBlackTranslucent animated:YES];
 
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-	[window setUserInteractionEnabled:YES];
-	[window setMultipleTouchEnabled:YES];	
-
+//	[window setUserInteractionEnabled:YES];
+//	[window setMultipleTouchEnabled:YES];	
 
 	[[Director sharedDirector] setPixelFormat:kRGBA8];
 	[[Director sharedDirector] attachInWindow:window];
@@ -21,13 +20,30 @@
 	[Texture2D setDefaultAlphaPixelFormat:kTexture2DPixelFormat_RGBA8888]; 
 	
 	[window makeKeyAndVisible];
-	
-	[[Director sharedDirector] runWithScene: [GameScene node]];
+
+	Scene *scene = [[Scene node] addChild:[Game node] z:0];
+	[[Director sharedDirector] runWithScene: scene];
 }
 
 - (void)dealloc {
 	[window release];
 	[super dealloc];
+}
+
+- (void)applicationWillResignActive:(UIApplication*)application {
+	[[Director sharedDirector] pause];
+}
+
+- (void)applicationDidBecomeActive:(UIApplication*)application {
+	[[Director sharedDirector] resume];
+}
+
+- (void)applicationDidReceiveMemoryWarning:(UIApplication*)application {
+	[[TextureMgr sharedTextureMgr] removeAllTextures];
+}
+
+- (void)applicationSignificantTimeChange:(UIApplication*)application {
+	[[Director sharedDirector] setNextDeltaTimeZero:YES];
 }
 
 @end

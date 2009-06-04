@@ -30,7 +30,7 @@ enum {
 
 // Fast FPS display. FPS are updated 10 times per second without consuming resources
 // uncomment this line to use the old method that updated
-#define FAST_FPS_DISPLAY 1
+//#define FAST_FPS_DISPLAY 1
 
 /** Possible Pixel Formats for the EAGLView */
 typedef enum {

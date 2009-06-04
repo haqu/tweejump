@@ -1,21 +1,26 @@
 # Tweejump
 
-inspired by [Icy Tower](http://www.freelunchdesign.com/games.php?id=6), [PapiJump](http://linktoapp.com/PapiJump), [Doodle Jump](http://linktoapp.com/Doodle+Jump) and... [Twitter](http://twitter.com)!
+Jump on platforms, collect coins on the way, and get highest score.
 
-![Tweejump](http://fc08.deviantart.com/fs43/f/2009/145/8/d/Tweejump_WIP_2_by_sthaqu.png)
+Tweejump is a jumping arcade game inspired by many wonderful games including [Icy Tower][1], [Doodle Jump][2], [PapiJump][3], and others.
+
+[1]: http://www.freelunchdesign.com/games.php?id=6
+[2]: http://linktoapp.com/Doodle+Jump
+[3]: http://linktoapp.com/PapiJump
+
+![Tweejump](http://tweejump.com/tweejump-1.jpg)
+
+Submitted to the App Store on June 4.
 
 ## Notes
 
 - you control a twitter bird by tilting device left and right
 - the bird is constantly jumping
-- you just tilt device to move it left or right
-- you jump on platforms, which looks like chat balloons
-- the higher you climb the more "followers" you get
-- on the way you collect:
-  - replies -- '@' symbols
-  - hashtags -- '#' symbols
+- you jump on platforms
+- the higher you climb the more score you get
+- one the way you collect coins: 5k, 10k, 50k, and 100k
 
-# References
+## References
 
 - [cocos2d-iphone](http://code.google.com/p/cocos2d-iphone/)
 - [cocos2d-iphone API](http://www.sapusmedia.com/cocos2d-iphone-api-doc/)
