@@ -1,5 +1,7 @@
 # Tweejump
 
+Available in the App Store: [itunes.com/app/tweejump](http://itunes.com/app/tweejump)
+
 Jump on platforms, collect coins on the way, and get highest score.
 
 Tweejump is a jumping arcade game inspired by many wonderful games including [Icy Tower][1], [Doodle Jump][2], [PapiJump][3], and others.
@@ -9,8 +11,6 @@ Tweejump is a jumping arcade game inspired by many wonderful games including [Ic
 [3]: http://linktoapp.com/PapiJump
 
 ![Tweejump](http://tweejump.com/tweejump-1.jpg)
-
-Submitted to the App Store on June 4.
 
 ## Notes
 
@@ -24,3 +24,15 @@ Submitted to the App Store on June 4.
 
 - [cocos2d-iphone](http://code.google.com/p/cocos2d-iphone/)
 - [cocos2d-iphone API](http://www.sapusmedia.com/cocos2d-iphone-api-doc/)
+
+## TODO
+
+- add Default.png
+- re-upload screenshots for app store (correct order)
+- make gravity a bit lower to jump higher
+
+## History
+
+2009-06-09 version 1.0 available
+2009-06-04 version 1.0 submitted to the App Store
+
