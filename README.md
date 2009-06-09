@@ -20,19 +20,22 @@ Tweejump is a jumping arcade game inspired by many wonderful games including [Ic
 - the higher you climb the more score you get
 - one the way you collect coins: 5k, 10k, 50k, and 100k
 
+## Upcoming changes (version 1.1)
+
+- fixed bug with clouds
+- in-game idle time disabled
+
+- opening image (Default.png)
+- fixed order of screenshots in app store
+- a bit lower gravity to jump higher
+
 ## References
 
 - [cocos2d-iphone](http://code.google.com/p/cocos2d-iphone/)
 - [cocos2d-iphone API](http://www.sapusmedia.com/cocos2d-iphone-api-doc/)
 
-## TODO
-
-- add Default.png
-- re-upload screenshots for app store (correct order)
-- make gravity a bit lower to jump higher
-
 ## History
 
-2009-06-09 version 1.0 available
-2009-06-04 version 1.0 submitted to the App Store
+- 2009-06-09 version 1.0 available
+- 2009-06-04 version 1.0 submitted to the App Store
 
