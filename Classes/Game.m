@@ -169,7 +169,7 @@
 	bird_vel.y = 0;
 	
 	bird_acc.x = 0;
-	bird_acc.y = -600.0f;
+	bird_acc.y = -550.0f;
 	
 	birdLookingRight = YES;
 	bird.scaleX = 1.0f;
