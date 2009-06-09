@@ -24,7 +24,6 @@ Tweejump is a jumping arcade game inspired by many wonderful games including [Ic
 
 - fixed bug with clouds
 - in-game idle time disabled
-
 - opening image (Default.png)
 - fixed order of screenshots in app store
 - a bit lower gravity to jump higher
