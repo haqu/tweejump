@@ -19,7 +19,7 @@ Tweejump is a jumping arcade game inspired by many wonderful games including [Ic
 - the bird is constantly jumping
 - you jump on platforms
 - the higher you climb the more score you get
-- one the way you collect coins: 5k, 10k, 50k, and 100k
+- on the way you collect coins: 5k, 10k, 50k, and 100k
 
 Powered by [cocos2d-iphone][10] framework.
 
