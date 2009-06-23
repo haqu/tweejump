@@ -39,3 +39,10 @@ Powered by [cocos2d-iphone][10] framework.
 - 2009-06-09 version 1.0 available
 - 2009-06-04 version 1.0 submitted to the App Store
 
+## License
+
+Tweejump is licensed under a [Creative Commons Attribution 3.0 Unported License][20].
+
+[20]: http://creativecommons.org/licenses/by/3.0/
+
+![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png)
