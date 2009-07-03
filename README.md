@@ -25,7 +25,7 @@ Powered by [cocos2d-iphone][10] framework.
 
 [10]: http://code.google.com/p/cocos2d-iphone/
 
-## Upcoming changes (version 1.1)
+## Changes in 1.1
 
 - in-game idle time disabled
 - loading screen added
@@ -35,6 +35,7 @@ Powered by [cocos2d-iphone][10] framework.
 
 ## History
 
+- 2009-06-28 1.1 available
 - 2009-06-09 1.1 submitted
 - 2009-06-09 version 1.0 available
 - 2009-06-04 version 1.0 submitted to the App Store
