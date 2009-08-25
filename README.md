@@ -11,7 +11,7 @@ Tweejump is a jumping arcade game inspired by many wonderful games including [Ic
 [3]: http://itunes.com/app/doodlejump
 [4]: http://itunes.com/app/papijump
 
-![Tweejump](http://tweejump.com/tweejump-1.jpg)
+![Tweejump](http://iplayful.com/tweejump/tweejump.jpg)
 
 ## Notes
 
