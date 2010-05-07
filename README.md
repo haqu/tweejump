@@ -1,6 +1,6 @@
 # Tweejump
 
-Available in the App Store: [itunes.com/app/tweejump][1]
+Available on the App Store: [itunes.com/app/tweejump][1]
 
 Jump on platforms, collect coins on the way, and get highest score.
 
