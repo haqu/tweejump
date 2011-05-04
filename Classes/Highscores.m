@@ -182,12 +182,7 @@
 	changePlayerAlert.delegate = self;
 	[changePlayerAlert addButtonWithTitle:@"Save"];
 	[changePlayerAlert addButtonWithTitle:@"Cancel"];
-	[changePlayerAlert show];
 
-	CGRect frame = changePlayerAlert.frame;
-	frame.origin.y -= 100.0f;
-	changePlayerAlert.frame = frame;
-	
 	changePlayerTextField = [[UITextField alloc] initWithFrame:CGRectMake(20, 45, 245, 27)];
 	changePlayerTextField.borderStyle = UITextBorderStyleRoundedRect;
 	[changePlayerAlert addSubview:changePlayerTextField];
@@ -199,6 +194,8 @@
 	changePlayerTextField.autocapitalizationType = UITextAutocapitalizationTypeNone;
 	changePlayerTextField.delegate = self;
 	[changePlayerTextField becomeFirstResponder];
+
+	[changePlayerAlert show];
 }
 
 - (void)draw {
