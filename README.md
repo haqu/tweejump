@@ -1,15 +1,10 @@
 # Tweejump
 
-Available on the App Store: [itunes.com/app/tweejump][1]
-
 Jump on platforms, collect coins on the way, and get highest score.
 
-Tweejump is a jumping arcade game inspired by many wonderful games including [Icy Tower][2], [Doodle Jump][3], [PapiJump][4], and others.
+Available on the App Store: [itunes.com/app/tweejump][1]
 
 [1]: http://itunes.com/app/tweejump
-[2]: http://www.freelunchdesign.com/games.php?id=6
-[3]: http://itunes.com/app/doodlejump
-[4]: http://itunes.com/app/papijump
 
 ![Tweejump](http://iplayful.com/tweejump/tweejump.jpg)
 
