@@ -4,7 +4,7 @@
 
 Jump on platforms, collect coins on the way, and get highest score.
 
-* [Tweejump on the App Store][1] [Free]
+* [Tweejump on the App Store][1] (Free)
 * [Tweejump video on YouTube][2] 
 
 Powered by [Cocos2D][3] framework.
