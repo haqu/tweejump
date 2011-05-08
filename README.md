@@ -37,6 +37,6 @@ Powered by [cocos2d-iphone][10] framework.
 
 ## License
 
-The code is released under the [MIT License][http://opensource.org/licenses/mit-license.php].
+The code is released under the [MIT License](http://opensource.org/licenses/mit-license.php).
 
 All images are copyrighted by Sergey Tikhonov. Please use them only for learning purposes, and don't release with your own project.
