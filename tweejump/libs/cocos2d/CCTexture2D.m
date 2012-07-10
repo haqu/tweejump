@@ -210,7 +210,7 @@ static CCTexture2DPixelFormat defaultAlphaPixelFormat_ = kCCTexture2DPixelFormat
 
 - (NSString*) description
 {
-	return [NSString stringWithFormat:@"<%@ = %p | Name = %i | Dimensions = %ix%i | Pixel format = %@ | Coordinates = (%.2f, %.2f)>", [self class], self, name_, width_, height_, [self stringForFormat], maxS_, maxT_];
+	return [NSString stringWithFormat:@"<%@ = %p | Name = %i | Dimensions = %lux%lu | Pixel format = %@ | Coordinates = (%.2f, %.2f)>", [self class], self, name_, (unsigned long)width_, (unsigned long)height_, [self stringForFormat], maxS_, maxT_];
 }
 
 -(CGSize) contentSize
@@ -626,16 +626,19 @@ static CCTexture2DPixelFormat defaultAlphaPixelFormat_ = kCCTexture2DPixelFormat
     CGSize dim;
 
 #ifdef __CC_PLATFORM_IOS
-	id font;
-	font = [UIFont fontWithName:name size:size];
-	if( font )
-		dim = [string sizeWithFont:font];
+	UIFont *font = [UIFont fontWithName:name size:size];
 
 	if( ! font ) {
 		CCLOG(@"cocos2d: Unable to load font %@", name);
 		[self release];
 		return nil;
 	}
+
+	// Is it a multiline ? sizeWithFont: only works with single line.
+	CGSize boundingSize = CGSizeMake(CGFLOAT_MAX, CGFLOAT_MAX);
+	dim = [string sizeWithFont:font
+			 constrainedToSize:boundingSize
+				 lineBreakMode:UILineBreakModeWordWrap];
 
 	return [self initWithString:string dimensions:dim hAlignment:kCCTextAlignmentCenter vAlignment:kCCVerticalTextAlignmentTop lineBreakMode:kCCLineBreakModeWordWrap font:font];
 
