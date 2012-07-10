@@ -15,11 +15,11 @@
 
 @implementation Highscores
 
-+ (CCScene *)scene
++ (CCScene *)sceneWithScore:(int)lastScore
 {
     CCScene *game = [CCScene node];
     
-    Highscores *layer = [Highscores node];
+    Highscores *layer = [[[Highscores alloc] initWithScore:lastScore] autorelease];
     [game addChild:layer];
     
     return game;
@@ -210,29 +210,29 @@
 - (void)draw {
 //	NSLog(@"draw");
 
-	if(currentScorePosition < 0) return;
-	
-	glColor4ub(0,0,0,50);
-
-	float w = 320.0f;
-	float h = 27.0f;
-	float x = (320.0f - w)/2;
-	float y = 359.0f - currentScorePosition * h;
-
-	GLfloat vertices[4][2];	
-	GLubyte indices[4] = { 0, 1, 3, 2 };
-	
-	glVertexPointer(2, GL_FLOAT, 0, vertices);
-	glEnableClientState(GL_VERTEX_ARRAY);
-	
-	vertices[0][0] = x;		vertices[0][1] = y;
-	vertices[1][0] = x+w;	vertices[1][1] = y;
-	vertices[2][0] = x+w;	vertices[2][1] = y+h;
-	vertices[3][0] = x;		vertices[3][1] = y+h;
-	
-	glDrawElements(GL_TRIANGLE_STRIP, 4, GL_UNSIGNED_BYTE, indices);
-	
-	glDisableClientState(GL_VERTEX_ARRAY);	
+//	if(currentScorePosition < 0) return;
+//	
+//	glColor4ub(0,0,0,50);
+//
+//	float w = 320.0f;
+//	float h = 27.0f;
+//	float x = (320.0f - w)/2;
+//	float y = 359.0f - currentScorePosition * h;
+//
+//	GLfloat vertices[4][2];	
+//	GLubyte indices[4] = { 0, 1, 3, 2 };
+//	
+//	glVertexPointer(2, GL_FLOAT, 0, vertices);
+//	glEnableClientState(GL_VERTEX_ARRAY);
+//	
+//	vertices[0][0] = x;		vertices[0][1] = y;
+//	vertices[1][0] = x+w;	vertices[1][1] = y;
+//	vertices[2][0] = x+w;	vertices[2][1] = y+h;
+//	vertices[3][0] = x;		vertices[3][1] = y+h;
+//	
+//	glDrawElements(GL_TRIANGLE_STRIP, 4, GL_UNSIGNED_BYTE, indices);
+//	
+//	glDisableClientState(GL_VERTEX_ARRAY);	
 }
 
 - (void)changePlayerDone {
@@ -243,7 +243,7 @@
 		[highscores addObject:[NSArray arrayWithObjects:@"tweejump",[NSNumber numberWithInt:0],nil]];
 		[self saveHighscores];
 		[[CCDirector sharedDirector] replaceScene:
-         [CCTransitionFade transitionWithDuration:1 scene:[Highscores scene] withColor:ccWHITE]];
+         [CCTransitionFade transitionWithDuration:1 scene:[Highscores sceneWithScore:currentScore] withColor:ccWHITE]];
 	}
 }
 

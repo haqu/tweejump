@@ -349,7 +349,7 @@
 	
 //	NSLog(@"score = %d",score);
 	[[CCDirector sharedDirector] replaceScene:
-     [CCTransitionFade transitionWithDuration:1 scene:[Highscores scene] withColor:ccWHITE]];
+     [CCTransitionFade transitionWithDuration:1 scene:[Highscores sceneWithScore:score] withColor:ccWHITE]];
 }
 
 //- (BOOL)ccTouchesEnded:(NSSet*)touches withEvent:(UIEvent*)event {

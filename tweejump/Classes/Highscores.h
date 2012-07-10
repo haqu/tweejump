@@ -10,6 +10,6 @@
 	UIAlertView *changePlayerAlert;
 	UITextField *changePlayerTextField;
 }
-+ (CCScene *)scene;
++ (CCScene *)sceneWithScore:(int)lastScore;
 - (id)initWithScore:(int)lastScore;
 @end
