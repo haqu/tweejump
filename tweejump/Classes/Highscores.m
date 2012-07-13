@@ -85,6 +85,15 @@
         menu.position = ccp(160,58);
         
         [self addChild:menu];
+		
+		// highscore stripe
+		if(currentScorePosition >= 0) {
+			float w = 320.0f;
+			float h = 27.0f;
+			CCLayerColor *lc = [CCLayerColor layerWithColor:ccc4(0, 0, 0, 50) width:w height:h];
+			lc.position = ccp(.0f, 358.0f-currentScorePosition*h);
+			[self addChild:lc];
+		}
     }
 	
 	return self;
