@@ -208,31 +208,37 @@
 }
 
 - (void)draw {
-//	NSLog(@"draw");
+	[super draw];
+	
+	if(currentScorePosition < 0) return;
 
-//	if(currentScorePosition < 0) return;
-//	
-//	glColor4ub(0,0,0,50);
-//
-//	float w = 320.0f;
-//	float h = 27.0f;
-//	float x = (320.0f - w)/2;
-//	float y = 359.0f - currentScorePosition * h;
-//
-//	GLfloat vertices[4][2];	
-//	GLubyte indices[4] = { 0, 1, 3, 2 };
-//	
-//	glVertexPointer(2, GL_FLOAT, 0, vertices);
-//	glEnableClientState(GL_VERTEX_ARRAY);
-//	
-//	vertices[0][0] = x;		vertices[0][1] = y;
-//	vertices[1][0] = x+w;	vertices[1][1] = y;
-//	vertices[2][0] = x+w;	vertices[2][1] = y+h;
-//	vertices[3][0] = x;		vertices[3][1] = y+h;
-//	
-//	glDrawElements(GL_TRIANGLE_STRIP, 4, GL_UNSIGNED_BYTE, indices);
-//	
-//	glDisableClientState(GL_VERTEX_ARRAY);	
+	glColor4f(0.0f, 0.0f, 0.0f, 0.2f);
+
+	float w = 320.0f;
+	float h = 27.0f;
+	float x = (320.0f - w) / 2.0f;
+	float y = 359.0f - currentScorePosition * h;
+
+	GLfloat vertices[4][2];	
+	GLubyte indices[4] = { 0, 1, 3, 2 };
+
+	vertices[0][0] = x;		vertices[0][1] = y;
+	vertices[1][0] = x+w;	vertices[1][1] = y;
+	vertices[2][0] = x+w;	vertices[2][1] = y+h;
+	vertices[3][0] = x;		vertices[3][1] = y+h;
+	
+	glDisable(GL_TEXTURE_2D);
+	glDisableClientState(GL_TEXTURE_COORD_ARRAY);
+	glDisableClientState(GL_COLOR_ARRAY);
+	
+	glVertexPointer(2, GL_FLOAT, 0, vertices);
+	glDrawElements(GL_TRIANGLE_STRIP, 4, GL_UNSIGNED_BYTE, indices);
+
+	glEnableClientState(GL_COLOR_ARRAY);
+	glEnableClientState(GL_TEXTURE_COORD_ARRAY);
+	glEnable(GL_TEXTURE_2D);
+	
+	glColor4f(1.0f, 1.0f, 1.0f, 1.0f);
 }
 
 - (void)changePlayerDone {
