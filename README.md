@@ -13,6 +13,10 @@ Powered by [Cocos2D][13] framework.
 [12]: http://www.youtube.com/watch?v=AtPiVIlCfMY
 [13]: http://www.cocos2d-iphone.org/
 
+<a href="https://www.cisimple.com/jobs/ochj3auy8tbhwfm4s"><img src='https://www.cisimple.com/jobs/ochj3auy8tbhwfm4s/build_status.png'/></a>
+
+Continuous Integration provided by [cisimple](https://www.cisimple.com).
+
 ## Contributors
 
 * Yannick Loriot
