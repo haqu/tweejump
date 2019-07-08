@@ -1,6 +1,6 @@
 # Tweejump
 
-![Tweejump](http://iplayful.com/tweejump/tweejump.jpg)
+![Tweejump](http://haqu.net/games/images/tweejump-screenshot-1.jpg)
 
 Jump on platforms, collect coins on the way, and get highest score.
 
