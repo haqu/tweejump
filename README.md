@@ -1,15 +1,13 @@
 # Tweejump
 
-![Tweejump](http://haqu.net/games/images/tweejump-screenshot-1.jpg)
+![Tweejump](http://haqu.net/img/tweejump.jpg)
 
 Jump on platforms, collect coins on the way, and get highest score.
 
-* [Tweejump on the App Store][11] (Free)
 * [Tweejump video on YouTube][12] 
 
 Powered by [Cocos2D][13] framework.
 
-[11]: http://itunes.apple.com/us/app/tweejump/id318903704?mt=8
 [12]: http://www.youtube.com/watch?v=AtPiVIlCfMY
 [13]: http://www.cocos2d-iphone.org/
 
